@@ -95,6 +95,7 @@ export class StatPanel extends PureComponent<PanelProps<Options>> {
             continue;
           }
           if (!globalRange && (!isNumber(config.min) || !isNumber(config.max))) {
+            this.forceUpdate();
             globalRange = findNumericFieldMinMax(data.series);
           }
           const min = config.min ?? globalRange!.min;

@@ -1,0 +1,7 @@
+organization=oubeniel
+projectKey=Oubeniel_code-smell-typescript
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.45341
+dashboardUrl=https://sonarcloud.io/dashboard?id=Oubeniel_code-smell-typescript
+ceTaskId=AYomxup74ecXMV-Ur4R3
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYomxup74ecXMV-Ur4R3
